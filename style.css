@@ -1,0 +1,135 @@
+/* Grobal Section  */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.grobal-btn {
+    width: 140px;
+    height: 40px;
+    background-color: black;
+    color: white;
+}
+.grobal-section {
+    padding: 3rem 0;
+}
+.grobal-heading {
+    font-size: 55px;
+    text-align: center;
+}
+.grobal-head-p {
+    color: #7b7b7b;
+    text-align: center;
+}
+
+/* Header  */
+.header{
+    background-color:#000000;
+}
+.header nav{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px 0;
+
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.logo h1{
+    font-weight: 500;
+    color: #fff
+}
+
+.nav-bar{
+    display: flex;
+    gap: 15px; 
+    align-items: center;  
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Frist Section */
+.frist-section {
+    background-image: url(./img/main-camera.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10rem 0;
+    text-align: center;
+}
+.frist-section p {
+    font-size: 2rem;
+}
+.frist-section h2 {
+    font-size: 5rem;
+    margin: 10px 0;
+}
+
+/* About Me Section */
+
+.about-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.about-main-div {
+    width: 600px;
+}
+.about-main-div h2 {
+    font-size: 33px;
+}
+.about-main-div p {
+    color: #7b7b7b;
+    margin: 15px 0;
+}
+
+/* Service Section */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-single-item {
+    padding: 50px;
+    text-align: center;
+}
+.grid-single-item h2 {
+ margin: 15px 0;
+}
+.grid-single-item p {
+    color: #7b7b7b;
+}
+.custom-icon-size {
+    font-size: 60px;
+}
+
+/* Contact with Me */
+.contact-head {
+    font-size: 55px;
+    text-align: center;
+}
+form {
+    margin-left: 38rem;
+    margin-top: 20px;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    color: white;
+    height: 3rem;
+    text-align: center;
+}
+footer p {
+    padding: 15px;
+}
